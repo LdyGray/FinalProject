@@ -1,6 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 
+GoogleCalendarSecret = st.secrets["CalendarAPI"]
+
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
